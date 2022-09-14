@@ -1,0 +1,154 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #7b3400;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+.entradas {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(12, 4, 4, 0.514);
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 15px;
+}
+
+
+.adicionarBtn {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.zerarBtn {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 50%;
+  cursor: pointer;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+input {
+  border: 0;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+
+input:hover {
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+input:focus {
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+h1,
+h3,
+h5{
+  color: white;
+}
+
+tr,
+th {
+  background-color: black;
+  font-size: 17px;
+  color: white;
+}
+
+
+td {
+  border-bottom: solid 0.7px grey;
+  background-color: #f7f7f7;
+  color: black;
+}
+
+td img{
+  width: 80px;
+  height: 80px;
+}
+
+.tabela {
+  margin-top: 20px;
+}
+
+.winBtn {
+  border: 0;
+  color: #ffffff;
+  background: #57d546;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.drawBtn {
+  border: 0;
+  color: #ffffff;
+  background: orange;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delBtn {
+  border: 0;
+  color: #ffffff;
+  background: red;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
